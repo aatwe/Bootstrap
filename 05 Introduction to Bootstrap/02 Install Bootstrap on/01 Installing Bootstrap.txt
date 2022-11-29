@@ -1,0 +1,33 @@
+In index.html boiler plate
+
+
+1)
+What is CDN? Copy Bootstrap CDN : Content Delivery Network
+
+We know internet is delivered by submarine cables
+If i access server from usa to uk 
+These are pretty long cables and generates few ms delay
+avg time = 2 seconds
+
+
+2) Why CDN? many routing points
+
+A CDN  instead of hosting in just 1 single location
+They have it at bunch of points where that website can be accessed
+
+Location of short distance is looked at.
+Enables users to loadCSS,JS, Images remotely from its servers
+
+It downloads files unless it has cached
+
+Bootstrap CSS files are hosted on maxcdn which has lots of routing points across worlds
+
+3) How many routing points help?
+If user tries of load website that is using bootstrap
+It can access it relatively quickly no matter where
+
+4) Why browser caches it?
+Bootstrap css gets cached in browser when a user uses bootstrap website.This cache is then used to open any other bootstrap website.
+This is how almost all websites using bootstrap are openable on most computers. Its like a network
+
+Code will get downloaded  once -> later time retrieved from cache

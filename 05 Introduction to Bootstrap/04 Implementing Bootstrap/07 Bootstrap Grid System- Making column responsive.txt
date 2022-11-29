@@ -1,0 +1,192 @@
+Bootstrap Grid : uses 12 column system
+Objective: Get x,y,z columsn per row on desktop/tablet/mobile
+
+
+Bootstrap -> Layout -> Grid
+Use Bootstrap 4.0
+
+
+<div class = "row">
+   <div class = "col" style = "background-color: red; border: 1pn solid; ">
+	col
+    </div>
+<div>
+
+
+What is function of class col?
+Divides row into as many section as it needs inorder to equally distribute all columns
+
+For ex //2 divs will take 50% of screen  // add3 each div takes 1/3rd				//AUTOADJUST
+<div class = "row">	
+   <div class = "col" style = "background-color: red; border: 1pn solid; ">			//divides equally
+	col
+    </div>
+
+   <div class = "col" style = "background-color: red; border: 1pn solid; ">
+	col
+    </div>
+<div>
+
+
+How to get 1 column of x width only? col-6 class
+//total 12 places
+col-6 means 6/12 = 1/2 : takes half of width of screen
+col6, col3, col2, col1 takes row
+
+//No need for anything else on right
+<div class = "row">
+   <div class = "col" style = "background-color: red; border: 1pn solid; ">			//divides equally	
+	col
+    </div>
+
+   <div class = "col" style = "background-color: red; border: 1pn solid; ">
+	col
+    </div>
+<div>
+
+<div class = "row">
+   <div class = "col-6" style = "background-color: green; border: 1pn solid; ">			//Takes 50% width of total
+	col-6
+    </div>
+
+<div class = "col-6" style = "background-color: green; border: 1pn solid; ">
+	col-6
+    </div>
+======================================================================================
+
+Are these columns responsive to screen size change in width? NO
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+How to make Bootstrap Grid Columns responsive?
+
+md  - tablet (medium)
+lg    - Desktop[large]
+sn   - Phone[small]
+
+specify all 3
+For ex 
+ <div class = "col-lg-3 col-md-4 col-sm-6 " style = "background-color: yellow; border: 1pn solid; ">
+	col-md-6
+    </div>
+
+
+How to make them? col-md-6
+//Have 6 unit column(1/2) on an size from medium(tablet) to upwards,
+if less than medium size(mobile) -> takes up full width
+
+<div class = "row">
+  <div class= "col-md-6" style="background-color: blue; border: 1px solid">
+     col-md-6
+</div>
+/div>
+
+____________________________________________________________________________________________________________
+<div class = "row">
+   <div class = "col" style = "background-color: red; border: 1pn solid; ">
+	col
+    </div>
+
+   <div class = "col" style = "background-color: red; border: 1pn solid; ">
+	col
+    </div>
+<div>
+
+<div class = "row">
+   <div class = "col" style = "background-color: green; border: 1pn solid; ">
+	col
+    </div>
+
+   <div class = "col" style = "background-color: green; border: 1pn solid; ">
+	col
+    </div>
+<div>
+
+<div class = "row">
+   <div class = "col-6" style = "background-color: yellow; border: 1pn solid; ">
+	col-md-6
+    </div>
+
+<div class = "col-6" style = "background-color: yellow; border: 1pn solid; ">
+	col-md-6
+    </div>
+
+<div class = "col-6" style = "background-color: yellow; border: 1pn solid; ">
+	col-md-6
+    </div>
+
+<div class = "col-6" style = "background-color: yellow; border: 1pn solid; ">
+	col-md-6
+    </div>
+_________________________________________________________________________________________________________________
+We want 4 columns on desktop 
+since 12/4 is 3 , we need 3 unit column
+
+<div class = "row">
+   <div class = "col-lg-3 " style = "background-color: yellow; border: 1pn solid; ">
+	col-md-6
+    </div>
+
+<div class = "col-lg-3" style = "background-color: yellow; border: 1pn solid; ">
+	col-md-6
+    </div>
+
+<div class = "col-lg-3" style = "background-color: yellow; border: 1pn solid; ">
+	col-md-6
+    </div>
+
+<div class = "col-lg-3" style = "background-color: yellow; border: 1pn solid; ">
+	col-md-6
+    </div>
+
+//we ahve 4 columns each taking 3 units on desktop
+//if any device smaller than desktop -> takes `100 % of width  , but we want it to take up 1/3rd of row i.e 4 units
+
+// these will now take 4 units in tablet mode
+//Becomes 3 unit column in desktop
+//also add col-sm-6
+<div class = "row">
+   <div class = "col-lg-3 col-md-4 col-sm-6 " style = "background-color: yellow; border: 1pn solid; ">
+	col-md-6
+    </div>
+
+<div class = "col-lg-3 col-md-4 col-sm-6" style = "background-color: yellow; border: 1pn solid; ">
+	col-md-6
+    </div>
+
+<div class = "col-lg-3 col-md-4 col-sm-6" style = "background-color: yellow; border: 1pn solid; ">
+	col-md-6
+    </div>
+
+<div class = "col-lg-3 col-md-4 col-sm-6" style = "background-color: yellow; border: 1pn solid; ">
+	col-md-6
+    </div>
+___________________________________________________________________________________________________________________________________
+CHALLENGE
+Get 6,4,100%width Columns per row Laptop/Desktop , Tablet , Mobile'
+
+Solution:
+//Prints 6 columns in row on laptop and desktop
+   4 on tablet
+<div class = "row">
+    <div class= "col-lg-2 col-md-3 style="background-color: grey; border: 1px solid">
+	col-lg-2 col-md-3
+</div>
+    <div class= "col-lg-2 col-md-3 style="background-color: grey; border: 1px solid">
+	col-lg-2 col-md-3
+</div>
+    <div class= "col-lg-2 col-md-3 style="background-color: grey; border: 1px solid">
+	col-lg-2 col-md-3
+</div>
+    <div class= "col-lg-2 col-md-3 style="background-color: grey; border: 1px solid">
+	col-lg-2 col-md-3
+</div>
+    <div class= "col-lg-2 col-md-3 style="background-color: grey; border: 1px solid">
+	col-lg-2 col-md-3
+</div>
+    <div class= "col-lg-2 col-md-3 style="background-color: grey; border: 1px solid">
+	col-lg-2 col-md-3
+</div>
+    <div class= "col-lg-2 col-md-3 style="background-color: grey; border: 1px solid">
+	col-lg-2 col-md-3
+</div>
+</div>

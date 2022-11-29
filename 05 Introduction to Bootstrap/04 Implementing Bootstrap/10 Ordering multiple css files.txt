@@ -1,0 +1,38 @@
+styles1.css
+body {
+background-color: red;
+}
+
+
+styles2.css
+body {
+background-color: blue;
+}
+
+
+If in head section
+
+html looks like:
+<head>
+<link rel="stylesheet" href="styles1.css">	//red
+<link rel="stylesheet" href="styles2.css">	//blue
+</head>
+
+//Resulting page is blue
+
+If in head
+<head>
+<link rel="stylesheet" href="styles2.css">
+<link rel="stylesheet" href="styles1.css">
+</head>
+
+
+//Resulting page is Red
+
+
+Are both styles applied? Yes
+but the one applied last is visible at end
+
+
+What is order of html code execution?
+Top to bottom, order matters

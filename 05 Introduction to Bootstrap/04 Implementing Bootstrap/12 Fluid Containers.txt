@@ -1,0 +1,5 @@
+//Always takes 100% of width
+
+<div class="container-fluid" style= "background-color: yellow;">
+   Lorem Ipsum..
+</div>

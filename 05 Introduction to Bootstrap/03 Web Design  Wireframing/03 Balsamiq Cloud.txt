@@ -1,0 +1,21 @@
+Can also share designs easily
+
+
+1) Create a box -> Change box to browser window
+
+
+2) Create header section -> add color
+
+3) add phone by rectangle
+
+3) add Link bar on top of phone.
+
+4) Add logo on right
+
+
+5) Text on bottom right
+
+6) Add Button below text
+
+
+/Remember this doesnt have to be perfect

@@ -1,0 +1,30 @@
+We will create 3 new divs and give each div a custom  class name
+
+
+Each feature is in same div which we can style separately or apply same style to each three
+
+
+How to make each div take 1/3rd width of screen?
+Make each div take up 1/3rd  or 33% width
+i.e on large desktop / laptop
+	Ipad/ Iphone : 100% width
+
+We will use col class
+NOte it is important to use the row class also
+
+<div class = "row">
+<div class = "feature-box col-lg-4">
+
+    <h3>Easy to use.</h3>
+    <p>So easy to use, even your dog could do it.</p>
+
+</div>
+<div class = "feature-box col-lg-4">
+  <h3>Elite Clientele</h3>
+  <p>We have all the dogs, the greatest dogs.</p>
+</div>
+<div class = "feature-box col-lg-4">
+    <h3>Guaranteed to work.</h3>
+    <p>Find the love of your dog's life or your money back.</p>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+fontawesome.com
+9000 free for commercial use icons
+With scenarios to use in
+
+apple
+Use apple fontawesome CDN
+
+Copy the line of HTML Code
+Just like bootstrap  it is implementing by adding classes
+<i class="fa-brands fa-apple"></i>
+
+
+How to add font awesome to our website? CDN
+We have to use Font awesome free CDN just like bootstrap
+THis CDN distributes resource/icons and allows to embed in our website 
+Can download and derive any icons we wanna use
+
+Where to insert Icon CDN? below CSS
+Insert it just below CSS
+<script src="https://use.fontawesome.com/e927d17e98.js"></script>
+
+Using i tag is not best practice
+but people use why coz glyphs and icons are not italicized, so it doesnt become slanted
+ alternative : use span

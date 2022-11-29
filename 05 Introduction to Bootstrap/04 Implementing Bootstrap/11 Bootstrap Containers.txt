@@ -1,0 +1,39 @@
+What are containers?
+Basic building  block for lot of elements in bootstrap
+Containers are a fundamental building block of Bootstrap that contain, pad, and align your content within a given device or viewport.	
+
+What feature? They are responsive
+
+Anything contained inside container is fully responsive relative to size of viewport
+However it is a little jarring not that fluid.(width keeps jumping when changing size of screen)
+
+<div class  "container" style= "background color: red">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+ but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</div	>
+
+
+container can contain anything div/button/table etc.S 
+
+
+3 Types of bootstrap containers
+a) container , which sets a max-width at each responsive breakpoint.
+
+<div class="container">
+  <!-- Content here -->
+</div>
+
+b) container-fluid , which is width: 100% at all breakpoints.
+<div class="container-sm">100% wide until small breakpoint</div>
+<div class="container-md">100% wide until medium breakpoint</div>
+<div class="container-lg">100% wide until large breakpoint</div>
+<div class="container-xl">100% wide until extra large breakpoint</div>
+<div class="container-xxl">100% wide until extra extra large breakpoint</div>
+
+
+c) container-{breakpoint} , which is width: 100% until the specified breakpoint.
+<div class="container-fluid">
+  ...
+</div>

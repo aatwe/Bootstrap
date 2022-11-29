@@ -1,0 +1,34 @@
+Download source code for bootstrap
+Unzip -> Bootstrap.css -> Open in atom
+
+
+The code has predefined styles for html elements
+
+h1,body etc
+
+A) Adding Bootstrap Stylesheet
+1) Bootstrap Docs -> Components -> add 4 Buttons to your code	//No styling observed
+2) Bootstrap.com -> Getting Started -> Introduction -> CSS -> Copy the Stylesheet link
+	looks like
+	<link href="https://cdn.jsdelvr.net....."
+3) Paste this style sheet in your code -> above your custom stylesheet style.css  //in head section
+		//Voila Bootstrap 5 is added
+
+
+
+  
+
+
+B) Adding Bootstrap script for JS
+1)Bootstrap.com -> Getting Started -> Introduction -> JS -> 
+	Choose    a) Bundle 
+		b) Separate
+	Copy Script file
+	looks like:
+	<script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstra......" 	
+	Paste at bottom of body tag 
+		//Voila Bootstrap5 JS also added
+
+
+Check buttons now -> Fancy buttons visible
+

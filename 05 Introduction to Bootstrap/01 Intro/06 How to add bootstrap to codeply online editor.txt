@@ -1,0 +1,17 @@
+Without Bootstrap:
+HTML +  CSS
+Button generates
+
+
+With Bootstrap:
+HTML , No CSS
+Button generates
+Add code:
+<button class= "btn btn-primary">Hello World </button>
+
+Settings- > bootstrap
+
+Just by adding class we activate all selectors
+//hover state, rounded bottom, color background etc
+
+can also use classes like btn-dark

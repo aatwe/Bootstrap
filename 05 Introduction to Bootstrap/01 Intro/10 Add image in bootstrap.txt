@@ -1,0 +1,30 @@
+1) Ctrl + F -> .navbar ->
+
+Boostrap has many classes
+nav bar is class  that bootstrap has defined in bootstrap.css
+Specifies position/display/padding etc
+other classes also like navbar-text etc
+
+
+2) Can add div to button
+
+Lets see how smart Bootstrap is
+
+Bootstrap components are smart
+For ex adding image as logo to navbar
+
+1)
+<div class= navbar>
+<button class>"btn btn-primary" >Hello World </button>
+</div>
+
+//This adds little bit of padding -> applies all of css in here
+
+
+2) 
+<div class>
+<img src= " ....." height 35>
+<button class>"btn btn-primary" >Hello World </button>
+</div>
+
+// A normal navbar with image

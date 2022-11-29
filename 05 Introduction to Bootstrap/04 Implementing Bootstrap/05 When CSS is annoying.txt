@@ -1,0 +1,12 @@
+Layout
+
+we saw changing position, display, floating etc
+THis can get v complex quickly
+
+All we gotta do ? layout things v simply with simple rules
+
+Check airbnb format : they have simple format 4 listing per row
+
+On mobile: 4 items reduce to 3 and so on as we reduce
+How is this done?
+Using bootstrap

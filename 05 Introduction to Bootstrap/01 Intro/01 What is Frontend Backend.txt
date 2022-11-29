@@ -1,0 +1,8 @@
+Front end: What user sees  //HTML+CSS+JS
+Back end: Business logic of how app will work //Powerful lang C#,Ruby,PHP,Java,NodeJS,SQL
+
+
+Animations+Buttons : Frontend
+Server + Database:  backend	
+
+Frontend and Backend talk to each other

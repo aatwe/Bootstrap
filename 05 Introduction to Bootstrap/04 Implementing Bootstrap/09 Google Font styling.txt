@@ -1,0 +1,13 @@
+1) Embed Ubuntu and Monserrat
+Copy link and paste in head section
+
+
+
+//Target Header
+
+h1{
+font-family: "Montserrat-Black"
+  font-size: 3rem;
+  line-height: 1.5;
+}
+//We used grids to make  website responsive so it uses  available screen real estate to max

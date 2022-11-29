@@ -1,0 +1,14 @@
+Include nav bar + title + images in same container
+
+
+Style the container/fluid class
+.container-fluid{
+  padding: 3% 15% 
+}
+
+
+Check pesticide tool
+one large box contains nav bar and all stuff in title section
+
+
+Now we will work on components inside the container

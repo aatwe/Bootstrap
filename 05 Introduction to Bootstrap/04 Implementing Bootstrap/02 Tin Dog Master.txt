@@ -1,0 +1,15 @@
+index.html
+
+
+//HTML Boiler Plate
+
+
+//Sections in Body
+
+///Nav Bar   //Here we will add Nav bar into our code
+//But still nav bar is plain html
+
+
+/// Title
+
+///

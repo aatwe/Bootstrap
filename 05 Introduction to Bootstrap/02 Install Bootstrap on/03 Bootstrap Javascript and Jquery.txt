@@ -1,0 +1,7 @@
+For some components of bootstrap to work
+they need JS and Jquery
+For ex if something has to change in website  //functionalities
+
+Can be done by JS an Jquery discussed later
+
+Use starter template from scratch

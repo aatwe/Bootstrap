@@ -1,0 +1,10 @@
+Option 2 : dont use CDN, download all source code in CSS folder and link the bootstrap.css file in our index.html
+
+<link rel="stylesheet" href="css/bootstrap.css" 
+
+
+What is disadvantage of keeping code locally:
+Prevents caching on browser
+
+Browsers wont recognize this, and will download all these files locally instead of getting
+from their cdn url

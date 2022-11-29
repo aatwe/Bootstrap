@@ -1,0 +1,3 @@
+//Can see they have created more expensive components using bootstrap
+for ex apple rip off product ex -> Take Apple Bootstrap -> and simply modify 
+Download examples -> Use html and CSS files

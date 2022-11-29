@@ -1,0 +1,82 @@
+Documentation -> Components -> Navbar 
+
+We will add this navbar in website
+
+In Codeply Playground
+We have nav element similar to div
+it is more clear that element will be nav bar
+
+<nav></nav>
+
+//Similar to div without content nav bar has no dimensions s
+1) Create nav element
+2) Use Bootstrap classes (Check bootstrap navbar documentation)
+//How to check what navbar class does? check bootstrap.css for navbar code
+3) Create anchor tag for nav bar text because it will be a link.
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+<a class>="navbar-brand" href= " "> tindog </a>
+    <ul class= "navbar-nav ms-auto">
+        <li class="nav-item">
+	<a class= "nav-link" href="">Contact</a>
+        </li>
+        <li class="nav-item">
+	<a class= "nav-link" href="">Pricing</a>
+        </li>
+        <li class="nav-item">
+	<a class= "nav-link" href="">Download</a>
+        </li>
+   </ul>
+</nav>
+
+
+//Change background color?
+<button type=Button" class ="btn-danger">danger </button>
+//add  bg property
+
+//How to add brand name at start of navbar?
+<a class>="navbar-brand" href= " "> tindog </a>
+
+//How to move nav bar element to right
+Add amrgin at start of unordered list
+Check bootstrap -> utilities ->  Spacing
+Do this using margin or padding
+<ul class= "navbar-nav ms-auto">
+//this sets margin to auto , it fills as much space as possible
+
+
+What if nav bar changes from horizontal to vertical?	
+
+//Add a toggler?
+instead of reducing the font of link items, we will show up a button
+with drop down menu
+We can view all links are hidden
+
+<button class="navbar-toggler"type= "button" data-bs-toggle= "collapse" data-bs-target="#navbarTogglerDemo02" aria-controls>
+<span class= "navbar-toggler-icon"></span>
+</button>
+
+<div class= "collapse">
+_____________________________________________________________________________
+Final nav bar code:
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href= " "> tindog </a>
+    <button class="navbar-toggler" type= "button" data-bs-toggle= "collapse" data-bs-target="#navbarTogglerDemo02" aria-controls>
+      <span class= "navbar-toggler-icon"></span>
+    </button>
+    <div class= "collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class= "navbar-nav ms-auto">
+            <li class="nav-item">
+    	          <a class= "nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+    	          <a class= "nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+    	          <a class= "nav-link" href="">Download</a>
+            </li>
+       </ul>
+       <div>
+    </nav>

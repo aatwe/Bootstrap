@@ -1,0 +1,10 @@
+We had generator for generating Button
+
+
+What if we need nav bar etc
+Can we generate prebuilt navbars etc? Yes using Bootstrap
+
+
+
+
+Also bootstrap helps in responsive web design

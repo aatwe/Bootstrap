@@ -1,0 +1,26 @@
+//1) Change background color of title section to #ff4c68 
+in styles.css : Target title section
+
+//How to target elements in css -> directly , class name -> dot , id -> #
+
+
+//2) We want navigation bar to not have its own color
+we want it to be just light colored navitation bar
+remove bg-dark from nav-class = "navbar...
+
+
+//3) Make title and download buttons take 50% of width"
+image take 50% of width on large desktop size
+//get the div that encloses the entire row on which we will use grid system
+//2 divs will separate out content using grid
+    <div class= "row">
+
+        <div class="col-lg-6">	//large size 6 unit, smaller -> 100% width  
+			//medium & small no need to specify , by default 100%
+          <h1>Meet new and interesting dogs nearby.</h1>
+          <button type="button">Download</button>
+          <button type="button">Download</button>
+        </div>
+    <div class= "col-lg-6">
+      <img src="images/iphone6.png" alt="iphone-mockup">
+    </div>

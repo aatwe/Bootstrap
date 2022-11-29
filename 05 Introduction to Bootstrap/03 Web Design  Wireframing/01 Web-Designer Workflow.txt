@@ -1,0 +1,20 @@
+Before html and css comes wireframing
+0) Looking at other people's websites
+
+1) Look at UI Patterns: What problems you wanna solve
+2) Sketched Wireframes
+Wrieframes : low fidelity representation of design (pencil/paper)
+Do it quick
+Goal: Get buy in on design
+Settle on design b4 implementing
+
+
+2) Create Mockup: //Photorealistic versions 	//Photoshop.Illustrator
+High fidelity representation of designs (screenshot in action)
+	Show mock up to show how you want it to look exactly
+
+
+3) Create prototype : Animated version
+
+
+Dribble : Check designer portfolios

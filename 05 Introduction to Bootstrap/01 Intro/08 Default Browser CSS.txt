@@ -1,0 +1,13 @@
+In browser similar to bootstrap there is user agent style sheet.  //see in dev tools
+
+1) Inspect basic code in chrome -> dev tools
+2) In styles tab -> whichever tag  your code is in ->  //see User agent stylesheet
+
+THis is the default CSS that gets applied to website by browser
+
+
+If you add some class name it will automatically style in specified way
+
+
+
+

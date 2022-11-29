@@ -1,0 +1,6 @@
+Users moving from destop to mobile
+Website need responsive : i.e responds to viewport
+If looking at same website on mobile/ipad : Should have different layout to take 
+best advantage of screen size
+
+i.e Adaptable layout
