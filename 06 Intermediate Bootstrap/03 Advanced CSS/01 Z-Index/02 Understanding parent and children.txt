@@ -1,0 +1,22 @@
+HTML
+<div class= "red">
+     Red	
+      <div class="yellow">		//Nesting divs
+       Yellow			//yellow div becomes child of red div
+    </div>				//Yellow div will sit on top of red div
+</div>
+
+<div class="blue">
+   Blue
+
+
+CSS
+div{
+   height: 100px;
+   width: 100px;
+   border: 1px solid;
+}
+.red{
+background-color: red;
+}
+_________________________________________________________---

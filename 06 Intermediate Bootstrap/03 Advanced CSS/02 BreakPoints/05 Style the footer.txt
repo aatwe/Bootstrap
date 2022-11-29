@@ -1,0 +1,18 @@
+We have a footer section
+//give classname social-icon
+  <!-- Footer -->
+
+  <footer id="footer">
+<i class="social-icon fa-brands fa-facebook"></i>
+<i class="social-icon fa-brands fa-twitter"></i>
+<i class="social-icon fa-brands fa-instagram"></i>
+<i class="social-icon fa-solid fa-envelope"></i>
+    <p>© Copyright TinDog</p>
+
+  </footer>
+
+
+//Give margin also
+.social-icon{
+  margin: 20px 10px;
+}

@@ -1,0 +1,75 @@
+Summary : when space -> considered hierarchial 
+
+<div class="container">
+	<h1 class="title"> Hello World! </h1>
+</div>
+
+
+<div class="container-fluid">
+ 	<h1 class="title "> Good Bye World </h1>
+</div>
+
+
+
+How to target Hello world in css?
+Cannot do direct
+	if h1 :red -> changes both h1 to red
+	if class= title -> changes both class title to red
+
+Solution? 
+Combine selectors
+we know both have different div classes
+
+.container  .title {
+	color: red;	//Isolates Hello world from Good Bye World using hierarchial selectors
+}
+
+What if you delete space?
+It doesnt consider hierarchial, code wont work because 
+
+.container.title {
+	color: red;	//Isolates Hello world from Good Bye World using hierarchial selectors
+}
+//Looks for element html with class container and also class title
+//Selectors have to be same html element
+// It refers to:s
+HTML
+<div class="container">
+	<h1 class="title container"> Hello World! </h1>
+</div>
+
+CSS
+h1.container.title {
+  color: red;			//This will paint Hello World Red
+}
+
+
+Ex2
+HTML
+<div class="container">
+	<h1 id="heading" class = "title"> Hello World! </h1>
+</div>
+
+
+<div class="container-fluid">
+ 	<h1 class="title "> Good Bye World </h1>
+</div>
+
+CSS:
+h1#heading {
+   color: red;   //Colors Hello world Red
+ }
+
+Ex3)
+HTML
+<div class="container">
+	<h1 id="heading" class = "title"> Hello World! </h1>
+</div>
+<div class="container-fluid">
+ 	<h1 class="title "> Good Bye World </h1>
+</div>
+
+CSS:
+h1.title {
+   color: red;   //Colors both Hello world and Good Bye World Red
+ } 

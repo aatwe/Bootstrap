@@ -1,0 +1,9 @@
+How to do that?
+#title.container-fluid {
+  padding: 3% 15% 7%
+}
+
+//previous padding gets overriden by this one
+
+
+How can we combine selectors in css?

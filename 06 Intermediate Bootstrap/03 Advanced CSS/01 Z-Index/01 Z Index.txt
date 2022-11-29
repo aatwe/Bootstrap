@@ -1,0 +1,15 @@
+The main image is taking a lot of space
+making title section lot bigger than needs
+
+
+How to make the image show up behind feature page
+Which will maek the title section compact
+
+
+
+Each element on screen has x and y position
+Can move the image up/ down/ right/ left
+The z position : towards/ away
+
+How to make image go behind a section
+Have to make the image z index lower than section's z index

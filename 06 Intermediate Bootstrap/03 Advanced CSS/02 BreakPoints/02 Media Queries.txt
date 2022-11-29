@@ -1,0 +1,66 @@
+What are media queriess
+//Generally the device width does not change
+//Browser size can change
+//Viewport : size of screenthat website is displayed
+
+Code Ply : No framework
+
+Objective : Hello World  should be red only in certain conditions
+We will create a media query breakpoint at 900px 
+when feature becomes true, code inside bracket gets enacted
+
+min-width vs max-width
+min-width :  900px or greater
+max-width : 900px or lesser
+
+
+1)  min-width
+//It is like a query , if media is a screen and the feature is that min width is 900 px
+@media screen (min-width: 900px){
+   //Change something
+}
+//We are checking to see
+
+Ex1) 
+@media print{
+  h1{
+   color: red;
+}
+}
+
+Ex2) max-width
+@media (max-width: 900px) {
+  h1{
+   color: red;	//if website is <=900px width change h1 color to red
+}
+}
+Test : change width of page -> Color of Hello world changes to red
+
+//If you hit print on this page -> it turns red
+
+Ex2) 
+@media speech{
+  h1{
+    color: 
+}
+}
+
+Ex3) 
+h1 {
+    font-size: 30px;
+}
+@media (max-width: 900px) {
+ h1{
+       font-size:60px;
+}
+}
+//when you trip the 900px font size reduces to  60px
+
+Ex4) Range bound code
+range -> The code will work only in 100 px gap
+	@media(min-width: 900px) and (max-width: 1000px) {
+h1 {
+	font-size: 60px;
+}
+}
+

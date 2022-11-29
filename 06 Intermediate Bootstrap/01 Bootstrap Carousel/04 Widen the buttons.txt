@@ -1,0 +1,7 @@
+padding is squishing the buttons
+We apply padding to each carousel item instead
+
+target carousel item
+.carousel-item {
+padding: 7% 15%;
+}

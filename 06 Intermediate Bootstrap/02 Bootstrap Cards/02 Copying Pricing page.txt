@@ -1,0 +1,5 @@
+Go to Bootstrap -> Pricing example
+
+Inspect -> Copy the card deck element
+Remember to changebootstrap version 5.0
+

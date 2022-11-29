@@ -1,0 +1,7 @@
+On github or any page
+
+Each heading has in id
+for ex an id is #-product-features
+
+//This will navigate you straight to the product features heading
+www.github.com/xyz/abc#-product-features

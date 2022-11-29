@@ -1,0 +1,12 @@
+lot css code applying same thing : last one standing gets carried through in the end
+Inefficient and bug prone
+
+1) use ID sparingly
+	If you have only 1 item of something, dont give it an id
+	Consider using class first instead of using id right away
+
+2)  When using your own custom class , use only 1, bootstrap class is ok
+
+3) Avoid Inline Styles at all cost
+	Really Bad CSS practice
+	Inline styles can always be solved using external style sheet

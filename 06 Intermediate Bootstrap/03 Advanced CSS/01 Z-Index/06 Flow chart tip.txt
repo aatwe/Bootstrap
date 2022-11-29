@@ -1,0 +1,8 @@
+Positioned elements that come later in html flow are on top
+even if they dont have a z-index
+
+i.e we can remove z-index  for #features and it will still work
+
+i.e if neither have z-index -> if one is below other in html flow
+			i.e feature section is below title image
+			the below one i.e feature will be on top even without setting z-index

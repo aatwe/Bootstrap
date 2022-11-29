@@ -1,0 +1,43 @@
+This creates a slideshow of all testimonials from customers
+
+
+Before implementing carousel ,style the section
+
+
+1) Add padding and  allign text to centre
+	Atom -> testimonials section
+#testimonials{
+  padding: 7% 15%
+   text-align: center;
+}
+
+2) We cant see at moment where feature section ends and where tesimonial section starts 
+Add color
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+
+3) Target the dog image and make it round
+Give it a class and style it 
+  <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+
+4) Style the press class
+  <section id="press">
+    <img src="images/techcrunch.png" alt="tc-logo">
+    <img src="images/tnw.png" alt="tnw-logo">
+    <img src="images/bizinsider.png" alt="biz-insider-logo">
+    <img src="images/mashable.png" alt="mashable-logo">
+#press{
+  background-color: #ef8172
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+5)Style the logo 
+   <img class= "press-logo" src="images/mashable.png" alt="mashable-logo">
+//make smaller and add space
+

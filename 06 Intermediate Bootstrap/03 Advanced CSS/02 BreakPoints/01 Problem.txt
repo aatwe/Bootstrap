@@ -1,0 +1,16 @@
+When changing to mobile size-> the image actually disappears
+
+
+Media Queries
+No. of people browisng web on mobile > Desktop (Oct 2016)
+Hence we think of responsiveness whenever we design a website
+
+
+Website google ranking is affected whether your website is mobile friendly or not
+
+go to mobile friendly test.com and check websites if friendly or not
+
+Solution: 
+1) Make separate website for mobile
+	for ex m.facebook.com  //separate site for mobile viewing
+2) make website responsive with css only

@@ -1,0 +1,15 @@
+
+Add little padding to pricing  section   //#pricing selector
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+Add padding around columns that hold the card to push it down away from title section
+and also give more space from each other
+
+//give class name to columns (all 3 columns)
+
+<div class="pricing-column col-lg-4 col-md-6 ">
+
+//now we have more space and top and sides

@@ -1,0 +1,11 @@
+Why refactor code
+
+We will refactor the code and keep your code in a state as if the enxt person to see this
+understands even if he is dumb
+
+how to refactor code?
+Principles:
+Readability  : Comments
+Modularity   : Narrow down on problems , Debugging is easy
+Efficiency     : How fast is code
+Length	     : How short is code  ,, reducing length to improve readabilty is nice

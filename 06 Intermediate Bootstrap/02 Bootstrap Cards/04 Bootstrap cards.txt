@@ -1,0 +1,42 @@
+Cards component provides a container
+
+Similar to HTML, cards have -> Header -> body -> Footer
+
+
+
+Header
+<div class= "card">
+  <div class="card-header">
+      Featured
+  </div>
+  <div class="card-body">
+     <h5 class="card-title">Special title treatment</h5>
+     <p class="card-text">With supporting text below as natural lead into additional content</p>
+     <a href='#' class="btn btn-primary">Go Somewhere</a>
+  </div>
+</div>
+Body
+
+
+Footer
+
+__________________________________________________________________________________________________
+Implementing cards from scratch
+//takes full width, each section has little different styling
+//we wont need footer
+//place header and body in pricing section
+//HOw many of these will we need? 3 because 3 pricing plans
+
+One card looks like below:
+
+<div class="card">
+   <div class="card-header">
+	Card Header
+</div>
+ <div class="card-body">
+	Card Body
+</div>
+   <div class="card-footer">
+	Card Footer
+  </div>
+</div>

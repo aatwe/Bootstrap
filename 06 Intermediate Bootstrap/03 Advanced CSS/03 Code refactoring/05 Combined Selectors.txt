@@ -1,0 +1,29 @@
+//No space is needed		//Note when there is space, its hierarchial and read right to left
+//Read left to right
+
+can be element-class
+            element-id etc
+But all should occur in the same element
+
+selector1.selector2 {
+
+}
+______________________________________________
+For ex
+
+HTML
+<div class="container-fluid"> 
+  <h1 class = title>   
+        Hello World
+</h1>
+</div>
+
+CSS:
+h1#title {color: red;}	    //h1 that has id title should have color red  		//Works
+div.container-fluid {color; red;}  // div has class containerfluid that should be red	 //Works
+
+//It doesnt matter if we are combining id or class with html element 
+As long as no space between selector, it will work
+
+div#title {color: red;}	//hierarchial : there is no div with id or class title	//Doesntwork
+				div has a child with id title

@@ -1,0 +1,29 @@
+Is our feature section white? no it is see through
+
+1) Make feature section white  from transperent
+	#features {padding: 7% 15%;
+		  background-color: #fff;
+}
+
+2) Make title image go behind feature
+How to make the image go behind feature? Z-Index , make title image z-index -1
+//also set position absolute
+.title-image {
+width: 60%;
+transform: rotate(25deg);
+z-index: -1;			//we wont need this
+position: absolute;
+}
+
+3) make feature section go on top of title image
+remember to add white color
+
+#features {
+ padding: 7% 15%;
+ background-color: #fff;
+ position: absolute;	//change this to relative , keeps element in flow and allows to have position 
+ z-index: 1;
+}
+
+//this will hide half image behind feature section //only white visible
+Title image will be visible

@@ -1,0 +1,61 @@
+How to apply styles to particular elements in webpage more specifically by combining selectors
+Basically more drilled down CSS
+How to combine selectors?
+
+
+Hierarchy is read right to left
+element on right is inside parent left
+//Works only for parent child relationship
+For ex
+div  .title {
+  color: red; 	//Wont work
+}
+
+1) 
+//Apply to multple html elements by Grouping
+//space not mandatory
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+
+selector1, selector2 {
+   
+}
+_____________________________
+Ex 
+h1 {			or 		h1 , p{
+   color: red;				  color: red;
+}					}
+p{
+  color: red;
+}
+=================================================
+
+2) Hierarchial Selectors
+Syntax:  //there should be space
+selector1 selector2 {
+
+}
+
+Ex1) 
+//Targetting container fluid class inside id title
+#title .container-fluid {
+    padding-top: 3%;
+    text-align: left;
+}
+
+Ex2) Given below hierarchial combination of selectors
+	Read from right to left
+	Reads all h1 inside a div
+CSS
+div h1 {color: red;}  	//All h1s inside div get colored red
+
+HTML
+<div class=  "container-fluid">
+   <h1 class= "title"> </h1>
+
+How to make it more specific?
+.container-fluid #title {color: red;}	//Element with id title inside a parent with class
+				container-fluid should have text color red
+	This is why ids are supposed to be unique

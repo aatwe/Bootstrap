@@ -1,0 +1,39 @@
+Make website look beautiful on mobile tablet and laptop and desktop
+We did all of this just by using CSS breakpoint
+Generally with braoadstroke responsiveness we can do a lot with Bootstrap grids
+For fine tuning and narrowing down exact design we want for mobiel tablet and laptop
+We will find using CSS media queries
+
+2 ways to design responsive website?
+1) mobile first
+2) design for desktop and make it responsive for smaller sizes
+
+Tablet size: Change position of image from 
+absolute   //taken out of html flow and it doesnt take its own space
+to 
+static 	//it starts taking full amount of space it needs
+
+
+We want it to transform and rotate back into straight axis
+i.e image should be straight
+Also centre align the text in title so it doesnt look so weird being left alligned
+
+Bootstrap grids:  The point at which the medium side triggers
+
+When width < 1028 it starts looking weird
+How to target this size? with Media query
+
+
+//Now as you go smaller than 1028 image becomes static and it gets back into html flow
+and is not cut off
+//also rotate it
+//centre allign title text
+@media (ma-width: 1028 px){
+  .title-image{
+     position: static; 
+     transform: rotate(0);
+}
+} 
+#title{
+  text-align: center;
+}

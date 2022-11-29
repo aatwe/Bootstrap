@@ -1,0 +1,35 @@
+HTML:
+<h1 id= "heading" class="title"> Hello World </h1>
+
+Note how to check which colors are applied which are overriden? Chrome Developer tools
+
+1) 
+
+h1 {
+	color: red;	//2 
+	color: green;	//1 
+}
+
+Reading from top to bottom : Wll show green
+
+2) 
+Styling via element vs class? Class selector have higher priority
+Priority Class > Element
+
+A class is more specific than html element
+We have more html elements than classes
+
+
+h1 {
+  color: red;
+}
+.title {
+   color: yellow;
+}
+
+3)element vs class vs id
+Priority ID > Class > Element
+
+4) Inline CSS Highest priority
+
+<h1 id= "heading" class="title" style="color: orange"> Hello World </h1>

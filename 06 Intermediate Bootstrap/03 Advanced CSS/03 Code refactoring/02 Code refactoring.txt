@@ -1,0 +1,47 @@
+1) Structure 
+
+	Make finding things efficient
+	Keep HTML elements together
+		Keep body , h1, h2, h3,p together
+
+
+There are 7 instances where we have declared text-align : centre
+	Make the entire body :
+		text-align: center;
+	Delete other instances
+
+
+We wo;; [it [addomg om container-fluid
+and delete other instances of padding 7% 15%
+
+
+Problem with container-fluid having padding
+Pushes down nav bar at top
+inspect ->   check container-fluid padding
+	so we will remove padding just for container fluid at title section
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href=""> tindog </a>
+
+
+We want to give container fluid a custom class
+But container-fluid is a bootstrap class that is helpful in keeping website responsive
+
+So instead we will target title instead of container fluid
+
+Pther option? Combine some selector
+
+
+instead of adding padding to title section 
+We target container-fluid class inside title section
+
+How to do that?
+#title.container-fluid {
+  padding: 3% 15% 7%
+}

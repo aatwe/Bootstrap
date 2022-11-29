@@ -1,0 +1,3 @@
+#pricing{
+//change the text allign property
+}

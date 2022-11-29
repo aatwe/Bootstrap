@@ -1,0 +1,67 @@
+Z index works on absolte/relative position ele
+
+We will see 3 div stacked on  top of each other 
+Code top to bottom = bottom to top of screen  //Natural stacking order
+//How to change the stacking order? Move the div down the html code
+What if we dont want to change the bits?How to change stacking order?
+	Use CSS -> Z-index property
+	Changing the z-index of the div to 1
+
+1:   Closest to user
+-1: away from user
+//Changing z-index of all div to -1 wont make and difference. same stacking order
+
+Why complex topic? Many things affect the stacking order
+What is prerequisite for z-index? Position property
+position: absolute in div{} css 
+//deleting this makes all div position statically i.e dont have explicit position set
+
+What if only 1 div was position: absolute;
+
+
+what is default z index for each element? 0
+
+HTML
+<div class= "red">
+     Red				
+</div>
+<div class="yellow">		
+     Yellow			
+</div>	
+<div class="blue">
+      Blue
+</div>
+____________________________________________________________________________________________________
+CSS
+div{
+   height: 100px;
+   width: 100px;
+   border: 1px solid;
+   position: absolute
+}
+.red{
+background-color: red;
+}
+.yellow{
+background-color: yellow;
+left: 20px;
+top: 20px;
+z-index:1;
+}
+.blue{
+  background-color: blue;
+  left: 40px;
+  top: 20px;
+}
+______________________________________________________________________________________
+Is it becuase my divs are not overlapping?
+Lets make only first div position absolute
+//seeing below: yellow should be stacked on top but it doesnt
+Why? it is not positioned, t doesnt have either relative or absolute positioning,it is static
+//since no position zindex does not apply
+//if you give position(absolute/fixed) to yellow it will come on top.
+Note if you give it position:static it wont work //it is same as no position defined
+.red{position: absolute
+	z-index:1 ;}
+.yellow{z-index:10;}
+.blue{ //no z index}

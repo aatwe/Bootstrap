@@ -1,0 +1,28 @@
+Based on whether it is colored section or white section?
+
+For ex
+
+Title: colored section
+
+Feature: white section
+
+
+Testimonial : colored
+
+Press:  colored
+
+Pricing: white
+
+CTA : colored
+footer: white
+
+//We know we add color to colored section and white color to other sections
+//Create styles for these sections:
+.colored-section {
+}
+
+.white-section {
+}
+
+//keep common features in colored/white section
+And if any subtle changes in some section, override in that particular section CSS
